@@ -1,0 +1,21 @@
+wechat:
+  mini:
+    app-id: wx4dee212d3440794f
+    app-secret: 3d4d2e640e91e7cae7c460cbdeff30fe
+pay:
+  url: http://pay.yoodex.net/unionPay/wx/getwxPayJSON
+  # 此sign用于免签名验证
+  sign: d4f107647e7da6794648983f985507ca
+  serect: Xa9YHpge
+  brand-code: X00038Egozw
+  store-no: M201908290739dJlt8
+  device-no: 100000
+  source: "00"
+crm:
+  base-url: http://wx.jsbesta.com/crm-api
+  # 此sign用于免签名验证
+  sign: d4f107647e7da6794648983f985507ca
+  secret: OPHAReZTvK8h
+  store-no: S000002
+  device-no: 100000
+  source: "03"
