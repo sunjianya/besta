@@ -1,0 +1,10 @@
+zuul:
+  routes:
+    # 简洁写法
+    besta-manage-cms: /manage-cms/**
+    besta-wechat-mini: /wechat-mini/**
+    besta-wechat-mp: /wechat-mp/**
+  # 排除某些路由
+  ignored-patterns:
+    - /**/product/
+  sensitive-headers:
